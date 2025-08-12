@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const introImages = [
+const introImages = [ // Colocar as imagens de introdução
   "Aprender sobre investimentos de forma divertida",
   "Conquistar seus objetivos financeiros",
   "Desenvolver inteligência financeira",

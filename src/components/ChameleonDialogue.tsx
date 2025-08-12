@@ -2,23 +2,23 @@ import { useState } from "react";
 
 const dialogueSequence = [
   {
-    sprite: "/lovable-uploads/920d8de5-006b-4c8d-96b4-4d7ba3ed802c.png",
+    sprite: "/lovable-uploads/personagem_capitalink-Photoroom.png",
     text: "Seja bem-vindo futuro investidor de sucesso! Investir é o caminho para você realizar seus sonhos e ter tranquilidade para viver a sua melhor vida!"
   },
   {
-    sprite: "/lovable-uploads/b00650de-19cf-4585-9b8e-d7d758a7ab03.png",
+    sprite: "/lovable-uploads/Rike_Pre3 - Cuidado.png",
     text: "Mas a gente sabe o quão chato e perigoso pode ser para os iniciantes aprenderem sobre o assunto. Há muita coisa errada que pode ser feita."
   },
   {
-    sprite: "/lovable-uploads/412b65ac-8d38-4442-a860-4ebb81ed9eab.png",
+    sprite: "/lovable-uploads/Rike_Pre3 - Chateado.png",
     text: "E ainda o processo pode ser muito complicado de entender."
   },
   {
-    sprite: "/lovable-uploads/a91bb514-7671-4738-b4a4-05b2909530aa.png",
+    sprite: "/lovable-uploads/Rike_Pre4 - Moedas.png",
     text: "Mas nós estamos aqui para te ajudar nessa! Aqui no CapitaLink você aprenderá todas as formas de fazer sua grana render, de um jeito prazeroso e confiável."
   },
   {
-    sprite: "/lovable-uploads/a91bb514-7671-4738-b4a4-05b2909530aa.png",
+    sprite: "/lovable-uploads/Rike_Pre4 - Moedas.png",
     text: "Investir é incrível e divertido, e você vai ver o lado mágico dos investimentos."
   }
 ];
@@ -54,8 +54,8 @@ export const ChameleonDialogue = ({ onComplete }: ChameleonDialogueProps) => {
       `}>
         <img 
           src={currentDialogue.sprite}
-          alt="CapitaLink Chameleon"
-          className="w-28 h-28 sm:w-36 sm:h-36 md:w-48 md:h-48 object-contain filter drop-shadow-lg"
+          alt="CapitaLink Chameleon" // posição e tamanho do camaleão
+          className="w-30 h-30 sm:w-38 sm:h-38 md:w-50 md:h-50 object-contain filter drop-shadow-lg"
           style={{ mixBlendMode: 'multiply' }}
         />
       </div>
