@@ -1,10 +1,10 @@
 export const CapitaLinkLogo = () => {
   return (
-    <div className="fixed top-0 left-0 w-full text-center py-4 z-50">
+    <div className="fixed top-2 left-1/2 -translate-x-1/2 z-50">
       <img
         src="/lovable-uploads/Logo_CapitaLink.2.png"
         alt="CapitaLink Logo"
-        className="inline-block"
+        className="block"
       />
     </div>
   );

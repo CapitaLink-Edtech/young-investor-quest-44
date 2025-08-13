@@ -26,7 +26,7 @@ export const IntroScreen = ({ onComplete }: IntroScreenProps) => {
     `}>
       <BackgroundCircles />
       
-      <div className="relative z-10 flex flex-col justify-between min-h-screen p-4">
+      
         {/* Header with Logo */}
         <div className="flex-shrink-0">
           <CapitaLinkLogo />
@@ -42,6 +42,6 @@ export const IntroScreen = ({ onComplete }: IntroScreenProps) => {
           <ChameleonDialogue onComplete={handleComplete} />
         </div>
       </div>
-    </div>
+    
   );
 };
