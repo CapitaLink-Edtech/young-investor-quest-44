@@ -55,7 +55,7 @@ export const ChameleonDialogue = ({ onComplete }: ChameleonDialogueProps) => {
         <img 
           src={currentDialogue.sprite}
           alt="CapitaLink Chameleon" // posição e tamanho do camaleão
-          className="w-48 h-48 sm:w-56 sm:h-56 md:w-72 md:h-72 object-contain filter drop-shadow-lg"
+          className="w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 object-contain filter drop-shadow-lg"
           style={{ mixBlendMode: 'multiply' }}
         />
       </div>
