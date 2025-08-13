@@ -54,7 +54,7 @@ export const ChameleonDialogue = ({ onComplete }: ChameleonDialogueProps) => {
   const currentDialogue = dialogueSequence[currentStep];
 
   return (
-    <div className="fixed bottom-0 left-0 flex items-end space-x-2 sm:space-x-4 cursor-pointer px-2 sm:px-4 py-3 md:py-6 z-50" onClick={handleClick}>
+    <div className="fixed bottom-0 left-0 flex items-end space-x-2 sm:space-x-4 cursor-pointer z-50" onClick={handleClick}>
       {/* Chameleon Sprite - Left Side, Responsive */}
       <div className={`
         transition-all duration-500 transform flex-shrink-0 scale-100
@@ -62,7 +62,7 @@ export const ChameleonDialogue = ({ onComplete }: ChameleonDialogueProps) => {
       `}>
         <img 
           src={currentDialogue.sprite}
-          alt="CapitaLink Chameleon" // posição e tamanho do camaleão
+          alt="CapitaLink Chameleon" // tamanho do camaleão
           className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 object-contain filter drop-shadow-lg"
           style={{ mixBlendMode: 'multiply' }}
         />
