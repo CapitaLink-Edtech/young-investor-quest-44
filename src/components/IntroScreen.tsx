@@ -26,7 +26,7 @@ export const IntroScreen = ({ onComplete }: IntroScreenProps) => {
     `}>
       <BackgroundCircles />
       
-      <div className="relative z-10 flex flex-col justify-between min-h-screen p-4">
+      <div className="">
         {/* Header with Logo */}
         <div className="flex-shrink-0">
           <CapitaLinkLogo />
