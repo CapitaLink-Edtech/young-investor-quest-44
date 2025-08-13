@@ -6,19 +6,19 @@ const dialogueSequence = [
     text: "Seja bem-vindo futuro investidor de sucesso! Investir é o caminho para você realizar seus sonhos e ter tranquilidade para viver a sua melhor vida!"
   },
   {
-    sprite: "/lovable-uploads/Rike_Pre3 - Cuidado.png",
+    sprite: "/lovable-uploads/Rike_Pre3-Cuidado.png",
     text: "Mas a gente sabe o quão chato e perigoso pode ser para os iniciantes aprenderem sobre o assunto. Há muita coisa errada que pode ser feita."
   },
   {
-    sprite: "/lovable-uploads/Rike_Pre3 - Chateado.png",
+    sprite: "/lovable-uploads/Rike_Pre3-Chateado.png",
     text: "E ainda o processo pode ser muito complicado de entender."
   },
   {
-    sprite: "/lovable-uploads/Rike_Pre4 - Moedas.png",
+    sprite: "/lovable-uploads/Rike_Pre4-Moedas.png",
     text: "Mas nós estamos aqui para te ajudar nessa! Aqui no CapitaLink você aprenderá todas as formas de fazer sua grana render, de um jeito prazeroso e confiável."
   },
   {
-    sprite: "/lovable-uploads/Rike_Pre4 - Moedas.png",
+    sprite: "/lovable-uploads/Rike_Pre4-Moedas.png",
     text: "Investir é incrível e divertido, e você vai ver o lado mágico dos investimentos."
   }
 ];
