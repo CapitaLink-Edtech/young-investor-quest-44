@@ -28,7 +28,7 @@ export const IntroScreen = ({ onComplete }: IntroScreenProps) => {
       
       
         {/* Header with Logo */}
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0 fixed top-0 left-0 w-full py-4 z-50">
           <CapitaLinkLogo />
         </div>
         
