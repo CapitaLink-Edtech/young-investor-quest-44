@@ -57,19 +57,19 @@ export const ChameleonDialogue = ({ onComplete }: ChameleonDialogueProps) => {
     <div className="fixed bottom-0 left-0 flex items-end space-x-2 sm:space-x-4 cursor-pointer px-2 sm:px-4 py-3 md:py-6 z-50" onClick={handleClick}>
       {/* Chameleon Sprite - Left Side, Responsive */}
       <div className={`
-        transition-all duration-500 transform flex-shrink-0 scale-100
+        fixed bottom-0 left-0 transition-all duration-500 transform 
         ${isTransitioning ? 'opacity-0 scale-95 rotate-12' : 'opacity-100 scale-100 rotate-0'}
       `}>
         <img 
           src={currentDialogue.sprite}
           alt="CapitaLink Chameleon" // posição e tamanho do camaleão
-          className="w-48 h-48 sm:w-56 sm:h-56 md:w-72 md:h-72 object-contain filter drop-shadow-lg"
+          className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 object-contain filter drop-shadow-lg"
           style={{ mixBlendMode: 'multiply' }}
         />
       </div>
       
       {/* Speech Bubble - Right Side */}
-      <div className="flex flex-col items-center space-y-1 sm:space-y-2 flex-1 min-w-0">
+      <div className="flex flex-col items-center space-y-1 sm:space-y-2 flex-1 min-w-0 ml-[10rem] sm:ml-[13rem] md:ml-[17rem]">
         <div className={`
           relative bg-capitalink-cream rounded-2xl sm:rounded-3xl p-3 sm:p-4 md:p-6 w-full max-w-xs sm:max-w-sm shadow-glow
           transition-all duration-500 transform
