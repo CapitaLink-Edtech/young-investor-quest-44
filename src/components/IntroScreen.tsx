@@ -26,7 +26,6 @@ export const IntroScreen = ({ onComplete }: IntroScreenProps) => {
     `}>
       <BackgroundCircles />
       
-      
         {/* Header with Logo */}
         <div className="flex-shrink-0">
           <CapitaLinkLogo />
@@ -42,6 +41,5 @@ export const IntroScreen = ({ onComplete }: IntroScreenProps) => {
           <ChameleonDialogue onComplete={handleComplete} />
         </div>
       </div>
-    
   );
 };
