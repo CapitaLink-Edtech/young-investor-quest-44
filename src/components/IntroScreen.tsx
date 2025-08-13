@@ -37,7 +37,7 @@ export const IntroScreen = ({ onComplete }: IntroScreenProps) => {
         </div>
         
         {/* Bottom with Chameleon Dialogue */}
-        <div className="flex-shrink-0 pb-8">
+        <div className="flex-shrink-0 pb-4">
           <ChameleonDialogue onComplete={handleComplete} />
         </div>
       </div>

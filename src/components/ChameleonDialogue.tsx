@@ -54,7 +54,7 @@ export const ChameleonDialogue = ({ onComplete }: ChameleonDialogueProps) => {
   const currentDialogue = dialogueSequence[currentStep];
 
   return (
-    <div className="fixed bottom-0 right-0 flex items-end space-x-2 sm:space-x-4 cursor-pointer px-2 sm:px-4 py-3 md:py-6 z-50" onClick={handleClick}>
+    <div className="fixed bottom-0 left-0 flex items-end space-x-2 sm:space-x-4 cursor-pointer px-2 sm:px-4 py-3 md:py-6 z-50" onClick={handleClick}>
       {/* Chameleon Sprite - Left Side, Responsive */}
       <div className={`
         transition-all duration-500 transform flex-shrink-0 scale-100
