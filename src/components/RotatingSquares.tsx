@@ -30,7 +30,7 @@ export const RotatingSquares = () => {
           className={`
             bg-gradient-primary rounded-2xl shadow-soft border border-capitalink-gold/20
             transition-all duration-500 ease-in-out flex items-center justify-center
-            ${positionIndex === 1 ? 'w-24 h-24 md:w-28 md:h-28' : 'w-16 h-16 md:w-20 md:h-20'}
+            ${positionIndex === 1 ? 'w-36 h-36 md:w-40 md:h-40' : 'w-24 h-24 md:w-28 md:h-28'} 
             ${isAnimating ? 'animate-pulse' : ''}
           `}
         >
