@@ -3,22 +3,30 @@ import { useState } from "react";
 const dialogueSequence = [
   {
     sprite: "/lovable-uploads/personagem_capitalink-Photoroom.png",
-    text: "Seja bem-vindo futuro investidor de sucesso! Investir é o caminho para você realizar seus sonhos e ter tranquilidade para viver a sua melhor vida!"
+    text: "Seja bem-vindo futuro investidor de sucesso!"
+  },
+  {
+    sprite: "/lovable-uploads/personagem_capitalink-Photoroom.png",
+    text: "Investir é o caminho para você realizar seus sonhos e ter tranquilidade para viver a sua melhor vida!"
   },
   {
     sprite: "/lovable-uploads/Rike_Pre3-Cuidado.png",
-    text: "Mas a gente sabe o quão chato e perigoso pode ser para os iniciantes aprenderem sobre o assunto. Há muita coisa errada que pode ser feita."
+    text: "Mas a gente sabe o quão perigoso pode ser para os iniciantes aprenderem sobre o assunto. Há muita coisa errada que pode ser feita."
   },
   {
     sprite: "/lovable-uploads/Rike_Pre3-Chateado.png",
-    text: "E ainda o processo pode ser muito complicado de entender."
+    text: "E ainda o processo pode ser muito chato de entender."
   },
   {
     sprite: "/lovable-uploads/Rike_Pre4-Moedas.png",
-    text: "Mas nós estamos aqui para te ajudar nessa! Aqui no CapitaLink você aprenderá todas as formas de fazer sua grana render, de um jeito prazeroso e confiável."
+    text: "Mas nós estamos aqui para te ajudar nessa!"
   },
   {
     sprite: "/lovable-uploads/Rike_Pre4-Moedas.png",
+    text: "Aqui no CapitaLink você aprenderá todas as formas de fazer sua grana render, de um jeito prazeroso e confiável."
+  },
+  {
+    sprite: "/lovable-uploads/personagem_capitalink-Photoroom.png",
     text: "Investir é incrível e divertido, e você vai ver o lado mágico dos investimentos."
   }
 ];
@@ -55,7 +63,7 @@ export const ChameleonDialogue = ({ onComplete }: ChameleonDialogueProps) => {
         <img 
           src={currentDialogue.sprite}
           alt="CapitaLink Chameleon" // posição e tamanho do camaleão
-          className="w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 object-contain filter drop-shadow-lg"
+          className="w-48 h-48 sm:w-56 sm:h-56 md:w-72 md:h-72 object-contain filter drop-shadow-lg"
           style={{ mixBlendMode: 'multiply' }}
         />
       </div>
