@@ -4,7 +4,7 @@ export const CapitaLinkLogo = () => {
       <img
         src="/lovable-uploads/Logo_CapitaLink.2.png"
         alt="CapitaLink Logo"
-        className="block max-w-xs w-auto"
+        className="block max-w-xs w-auto" // ou w-56
       />
     </div>
   );
