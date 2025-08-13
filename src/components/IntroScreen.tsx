@@ -26,7 +26,7 @@ export const IntroScreen = ({ onComplete }: IntroScreenProps) => {
     `}>
       <BackgroundCircles />
       
-      <div className="">
+      <div className="fixed top-0 left-0 w-full text-center py-2 z-50">
         {/* Header with Logo */}
         <div className="flex-shrink-0">
           <CapitaLinkLogo />
