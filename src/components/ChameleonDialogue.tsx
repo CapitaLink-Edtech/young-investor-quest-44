@@ -54,7 +54,7 @@ export const ChameleonDialogue = ({ onComplete }: ChameleonDialogueProps) => {
   const currentDialogue = dialogueSequence[currentStep];
 
   return (
-    <div className="fixed bottom-0 left-0 flex items-end space-x-0 cursor-pointer px-1 sm:px-2 py-3 md:py-6 z-50" onClick={handleClick}>
+    <div className="fixed bottom-0 left-0 flex items-end space-x-1 sm:space-x-2 cursor-pointer px-1 sm:px-2 py-3 md:py-6 z-50" onClick={handleClick}>
       {/* Chameleon Sprite - Left Side, Responsive */}
       <div className={`
         transition-all duration-500 transform flex-shrink-0 scale-100
@@ -69,7 +69,7 @@ export const ChameleonDialogue = ({ onComplete }: ChameleonDialogueProps) => {
       </div>
       
       {/* Speech Bubble - Right Side */}
-      <div className="flex flex-col items-start space-y-1 sm:space-y-2 flex-1 min-w-0 -ml-8 sm:-ml-12 md:-ml-16">
+      <div className="flex flex-col items-center space-y-1 sm:space-y-2 flex-1 min-w-0">
         <div className={`
           relative bg-capitalink-cream rounded-2xl sm:rounded-3xl p-3 sm:p-4 md:p-6 w-full max-w-xs sm:max-w-sm shadow-glow
           transition-all duration-500 transform
@@ -84,8 +84,8 @@ export const ChameleonDialogue = ({ onComplete }: ChameleonDialogueProps) => {
              }}>
             {currentDialogue.text}
           </p>
-          {/* Speech bubble tail pointing to chameleon - moved to top */}
-          <div className="absolute top-3 sm:top-4 left-0 transform -translate-x-full">
+          {/* Speech bubble tail pointing to chameleon */}
+          <div className="absolute bottom-3 sm:bottom-4 left-0 transform -translate-x-full">
             <div className="w-0 h-0 border-t-[12px] sm:border-t-[16px] md:border-t-[20px] border-b-[12px] sm:border-b-[16px] md:border-b-[20px] border-r-[12px] sm:border-r-[16px] md:border-r-[20px] border-t-transparent border-b-transparent border-r-capitalink-cream"></div>
           </div>
         </div>
