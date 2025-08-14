@@ -57,7 +57,7 @@ export const ChameleonDialogue = ({ onComplete }: ChameleonDialogueProps) => {
     <div className="fixed bottom-0 left-0 flex items-end space-x-1 sm:space-x-2 cursor-pointer px-1 sm:px-2 py-3 md:py-6 z-50" onClick={handleClick}>
       {/* Chameleon Sprite - Left Side, Responsive */}
       <div className={`
-        fixed left-1 transition-all duration-500 transform flex-shrink-0 scale-100
+        transition-all duration-500 transform flex-shrink-0 scale-100
         ${isTransitioning ? 'opacity-0 scale-95 rotate-12' : 'opacity-100 scale-100 rotate-0'}
       `}>
         <img 
