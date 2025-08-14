@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 
 const dialogueSequence = [
@@ -55,7 +54,7 @@ export const ChameleonDialogue = ({ onComplete }: ChameleonDialogueProps) => {
   const currentDialogue = dialogueSequence[currentStep];
 
   return (
-    <div className="fixed bottom-0 left-4 flex items-end space-x-1 sm:space-x-2 cursor-pointer py-3 md:py-6 z-50" onClick={handleClick}>
+    <div className="fixed bottom-0 left-0 flex items-end space-x-1 sm:space-x-2 cursor-pointer px-1 sm:px-2 py-3 md:py-6 z-50" onClick={handleClick}>
       {/* Chameleon Sprite - Left Side, Responsive */}
       <div className={`
         transition-all duration-500 transform flex-shrink-0 scale-100
